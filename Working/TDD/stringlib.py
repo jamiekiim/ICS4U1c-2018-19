@@ -1,7 +1,9 @@
-import unittest
-import stringlib
 
-class Test_strLength_general1(unittest.Testcase):
+def strLength(mystring):
 
-    def test_strLength_general1(self):
-        self.assertEquals(4, stringlib.strLength("yeye"))
+            count = 0
+
+            for i in mystring:
+                count += 1
+
+
