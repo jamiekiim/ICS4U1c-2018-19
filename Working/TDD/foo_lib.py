@@ -5,3 +5,5 @@ def fool(num):
         return sqrt(num)
     except ValueError:
         raise ValueError("Cannot square root a negative number.")
+
+
